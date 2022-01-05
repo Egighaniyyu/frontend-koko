@@ -1,0 +1,62 @@
+:root{
+    --primary: #223B40;
+    --secondary: #B3CCD1;
+}
+
+.navbar-brand{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--primary);
+}
+
+.navbar-brand:hover,
+.nav-link:hover{
+    color: var(--secondary);
+}
+
+.nav-link{
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    color: var(--primary);
+    margin-right: 32px;
+}
+
+.nav-product,
+.btn-detail{
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    padding: 14px 42px;
+    background-color: var(--primary);
+    color: var(--primary);
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.text-header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    color: white;
+}
+
+.text-header-color{
+    font-family: 'Poppins', sans-serif;
+    font-size: 46px;
+    color: var(--primary);
+}
+
+.text-small{
+    font-family: 'Kanit', sans-serif;
+    color: #616161;
+}
+
+.card-title{
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+}
+
+.card-text{
+    font-family: 'Kanit', sans-serif;
+    font-size: 14px;
+}
